@@ -1,0 +1,271 @@
+cm_name,category_tree_text
+Industry,Industry
+International,Industry^Travel^Air Travel^International
+Hotel,Industry^Travel^Hotel
+Travel Booking Services,Industry^Travel^Travel Booking Services
+Automobiles,Industry^Automobiles
+Hatchback,Industry^Automobiles^Four Wheeler^Hatchback
+SUV,Industry^Automobiles^Four Wheeler^SUV
+Sedan,Industry^Automobiles^Four Wheeler^Sedan
+Auto Parts,Industry^Automobiles^Auto Parts
+Auto Rentals,Industry^Travel^Auto Rentals
+Budget Cars,Industry^Automobiles^Four Wheeler^Budget Cars
+Certified Pre-Owned Cars,Industry^Automobiles^Four Wheeler^Certified Pre-Owned Cars
+Luxury Cars,Industry^Automobiles^Four Wheeler^Luxury Cars
+Bikes,Industry^Automobiles^Two Wheeler^Bikes
+Scooters,Industry^Automobiles^Two Wheeler^Scooters
+Books & Audible,Industry^Shopping^Books & Audible
+Banking & Finance,Industry^Banking & Finance
+Banking,Industry^Banking & Finance^Banking
+Investment,Industry^Banking & Finance^Investment
+Business Loans,Industry^Banking & Finance^Loans^Business Loans
+SIPs,Industry^Banking & Finance^Investment^SIPs
+Logistics,Industry^Others^Logistics
+Job,Industry^Career & Job^Job
+Entertainment,Industry^Entertainment
+Food & Dining,Industry^Food & Dining
+Manufacturing,Industry^Others^Manufacturing
+Non-Profit Organizations,Industry^Others^Non-Profit Organizations
+Pharmaceutical,Industry^Health & Pharmaceutical^Pharmaceutical
+Retail,Industry^Others^Retail
+Telecom,Industry^Utility^Telecom
+Career & Job,Industry^Career & Job
+Career Advice & Counselling,Industry^Career & Job^Career Advice & Counselling
+Job Search,Industry^Career & Job^Job^Job Search
+Job Fairs,Industry^Career & Job^Job^Job Fairs
+Education,Industry^Education
+College Education,Industry^Education^College Education
+Professional School,Industry^Education^Professional School
+Kids Schooling,Industry^Education^Kids Schooling
+Online Courses,Industry^Education^Online Courses
+Events and Attractions,Industry^Entertainment^Offline Entertainment^Events and Attractions
+Malls & Shopping Centers,Industry^Shopping^Malls & Shopping Centers
+Family and Relationships,Industry^Family and Relationships
+Parenting,Industry^Family and Relationships^Parenting
+Daycare and Pre-School,Industry^Family and Relationships^Parenting^Daycare and Pre-School
+Special Needs Kids,Industry^Family and Relationships^Parenting^Special Needs Kids
+Health & Pharmaceutical,Industry^Health & Pharmaceutical
+Weight Loss,Industry^Health & Pharmaceutical^Weight Loss
+Wellness,Industry^Health & Pharmaceutical^Wellness
+Ayurveda,Industry^Health & Pharmaceutical^Health Supplements^Ayurveda
+Physical Therapy,Industry^Health & Pharmaceutical^Physical Therapy
+Home Appliances,Industry^Shopping^Electronics^Home Appliances
+Medical Health,Industry^Health & Pharmaceutical^Medical Health
+Diseases and Conditions,Industry^Health & Pharmaceutical^Medical Health^Diseases and Conditions
+Dental Health,Industry^Health & Pharmaceutical^Medical Health^Dental Health
+Diabetes,Industry^Health & Pharmaceutical^Medical Health^Diabetes
+Eye and Vision Conditions,Industry^Health & Pharmaceutical^Medical Health^Eye and Vision Conditions
+Heart and Cardiovascular Diseases,Industry^Health & Pharmaceutical^Medical Health^Heart and Cardiovascular Diseases
+Reproductive Health,Industry^Health & Pharmaceutical^Medical Health^Reproductive Health
+Infertility,Industry^Health & Pharmaceutical^Medical Health^Infertility
+Pregnancy,Industry^Health & Pharmaceutical^Medical Health^Pregnancy
+Sexual Health & Conditions,Industry^Health & Pharmaceutical^Medical Health^Sexual Health & Conditions
+Skin and Dermatology,Industry^Health & Pharmaceutical^Medical Health^Skin and Dermatology
+Sleep Disorders,Industry^Health & Pharmaceutical^Medical Health^Sleep Disorders
+Offline Movies,Industry^Entertainment^Offline Entertainment^Offline Movies
+News & Politics,Industry^News & Politics
+International News,Industry^News & Politics^News^International News
+Local News,Industry^News & Politics^News^Local News
+National News,Industry^News & Politics^News^National News
+Politics,Industry^News & Politics^Politics
+Elections News,Industry^News & Politics^News^Elections News
+Internet Service Providers,Industry^Online Services^Internet^Internet Service Providers
+Insurance,Industry^Banking & Finance^Insurance
+Health Insurance,Industry^Banking & Finance^Insurance^Health Insurance
+Home Insurance,Industry^Banking & Finance^Insurance^Home Insurance
+Life Insurance,Industry^Banking & Finance^Insurance^Life Insurance
+Car Insurance,Industry^Banking & Finance^Insurance^Car Insurance
+Credit Cards,Industry^Banking & Finance^Banking^Credit Cards
+Personal Loans,Industry^Banking & Finance^Loans^Personal Loans
+Education Loan,Industry^Banking & Finance^Loans^Education Loan
+Mutual Funds,Industry^Banking & Finance^Investment^Mutual Funds
+Shares and Stocks,Industry^Banking & Finance^Investment^Shares and Stocks
+Real Estate,Industry^Real Estate
+Shopping,Industry^Shopping
+Coupons and Discounts,Industry^Shopping^Coupons and Discounts
+Sports & Games,Industry^Sports & Games
+Football,Industry^Sports & Games^Outdoor Games^Football
+Cricket,Industry^Sports & Games^Outdoor Games^Cricket
+Fashion,Industry^Shopping^Fashion
+Health & Beauty,Industry^Shopping^Health & Beauty
+Hair Care,Industry^FMCG^Hair Care
+Makeup and Accessories,Industry^Shopping^Makeup and Accessories
+Skin Care,Industry^FMCG^Skin Care
+Men,Industry^Shopping^Fashion^Men
+Men,Industry^Shopping^Watches^Men
+Men,Industry^Shopping^Footwear^Men
+Women,Industry^Shopping^Fashion^Women
+Women,Industry^Shopping^Watches^Women
+Women,Industry^Shopping^Footwear^Women
+Gadgets & Technology,Industry^Gadgets & Technology
+Cloud Computing,Industry^Online Services^Internet^Cloud Computing
+Laptops,Industry^Gadgets & Technology^Laptops
+Electronics,Industry^Shopping^Electronics
+Cameras and Camcorders,Industry^Gadgets & Technology^Cameras and Camcorders
+Home Entertainment Systems,Industry^Gadgets & Technology^Home Entertainment Systems
+Smartphones,Industry^Gadgets & Technology^Smartphones
+Tablets,Industry^Gadgets & Technology^Tablets
+Smartwatch,Industry^Gadgets & Technology^Smartwatch
+Travel,Industry^Travel
+Air Travel,Industry^Travel^Air Travel
+Online Games,Industry^Sports & Games^Online Games
+Interior Decorating,Industry^Shopping^Interior Decorating
+Outdoor Decorating,Industry^Shopping^Outdoor Decorating
+Poker and Gambling,Industry^Sports & Games^Outdoor Games^Poker and Gambling
+Software and Applications,Industry^Online Services^Internet^Software and Applications
+Domain and Hosting,Industry^Online Services^Internet^Domain and Hosting
+Information and Network Security,Industry^Online Services^Internet^Information and Network Security
+Internet,Industry^Online Services^Internet
+Social Networking,Industry^Online Services^Internet^Social Networking
+Religion & Spirituality,Industry^Religion & Spirituality
+Astrology,Industry^Religion & Spirituality^Astrology
+Electric Cars,Industry^Automobiles^Four Wheeler^Electric Cars
+Four Wheeler,Industry^Automobiles^Four Wheeler
+Two Wheeler,Industry^Automobiles^Two Wheeler
+2bhk Flat,Industry^Real Estate^Property Type^2bhk Flat
+3bhk Flat,Industry^Real Estate^Property Type^3bhk Flat
+4bhk+ Flat,Industry^Real Estate^Property Type^4bhk+ Flat
+AAP Followers,Industry^News & Politics^Politics^AAP Followers
+Action and Adventure,Industry^Sports & Games^Online Games^Action and Adventure
+Ahmedabad,Industry^Real Estate^Location^Ahmedabad
+Airtel Wynk,Industry^Entertainment^Music Streaming Services^Airtel Wynk
+Airtel Xstream,Industry^Entertainment^OTT Apps^Airtel Xstream
+Amazon Prime Music,Industry^Entertainment^Music Streaming Services^Amazon Prime Music
+Amazon Prime Video,Industry^Entertainment^OTT Apps^Amazon Prime Video
+Android Phones,Industry^Gadgets & Technology^Smartphones^Android Phones
+Arcade,Industry^Sports & Games^Online Games^Arcade
+BJP Followers,Industry^News & Politics^Politics^BJP Followers
+Baby Products,Industry^Shopping^Baby Products
+Badminton,Industry^Sports & Games^Outdoor Games^Badminton
+Benguluru,Industry^Real Estate^Location^Benguluru
+Bike,Industry^Travel^Auto Rentals^Bike
+Bike Insurance,Industry^Banking & Finance^Insurance^Bike Insurance
+Board,Industry^Sports & Games^Online Games^Board
+Bride,Industry^Family and Relationships^Matrimony^Bride
+Cabs,Industry^Travel^Cabs
+Car,Industry^Travel^Auto Rentals^Car
+Car Loan,Industry^Banking & Finance^Loans^Car Loan
+Casino & Cards,Industry^Sports & Games^Online Games^Casino & Cards
+Chennai,Industry^Real Estate^Location^Chennai
+Congress Followers,Industry^News & Politics^Politics^Congress Followers
+Cosmetics,Industry^FMCG^Cosmetics
+Credit Checks,Industry^Banking & Finance^Investment^Credit Checks
+Dating,Industry^Family and Relationships^Matrimony^Dating
+Debit Cards,Industry^Banking & Finance^Banking^Debit Cards
+Delhi,Industry^Real Estate^Location^Delhi
+Demat Account,Industry^Banking & Finance^Banking^Demat Account
+Dish TV & D2H,Industry^Entertainment^Offline Entertainment^Dish TV & D2H
+Domestic,Industry^Travel^Tourism^Domestic
+Domestic,Industry^Travel^Vacation^Domestic
+Echo & Alexa,Industry^Gadgets & Technology^IOT Devices^Echo & Alexa
+Electric Bikes,Industry^Automobiles^Two Wheeler^Electric Bikes
+FMCG,Industry^FMCG
+Faridabad,Industry^Real Estate^Location^Faridabad
+Fire TV Stick,Industry^Gadgets & Technology^IOT Devices^Fire TV Stick
+Food delivery,Industry^Food & Dining^Food delivery
+Foods & Beverages,Industry^FMCG^Foods & Beverages
+Footwear,Industry^Shopping^Footwear
+Foreign exchange,Industry^Banking & Finance^Investment^Foreign exchange
+Gaana,Industry^Entertainment^Music Streaming Services^Gaana
+Ghaziabad,Industry^Real Estate^Location^Ghaziabad
+Gift Cards & Mobile Recharges,Industry^Shopping^Gift Cards & Mobile Recharges
+Golf,Industry^Sports & Games^Outdoor Games^Golf
+Google Home,Industry^Gadgets & Technology^IOT Devices^Google Home
+Government Projects,Industry^Others^Government Projects
+Greater Noida,Industry^Real Estate^Location^Greater Noida
+Grocery,Industry^Shopping^Grocery
+Groom,Industry^Family and Relationships^Matrimony^Groom
+Gurgaon,Industry^Real Estate^Location^Gurgaon
+Gym,Industry^Health & Pharmaceutical^Gym
+Health Supplements,Industry^Health & Pharmaceutical^Health Supplements
+Heavy Vehicle Loan,Industry^Banking & Finance^Loans^Heavy Vehicle Loan
+Hotstar,Industry^Entertainment^OTT Apps^Hotstar
+Household Products,Industry^FMCG^Household Products
+Hyderabad,Industry^Real Estate^Location^Hyderabad
+IOS,Industry^Gadgets & Technology^Smartphones^IOS
+IOT Devices,Industry^Gadgets & Technology^IOT Devices
+Industrial B2B,Industry^Others^Industrial B2B
+International,Industry^Travel^Tourism^International
+International,Industry^Travel^Vacation^International
+Jaipur,Industry^Real Estate^Location^Jaipur
+Jewellery,Industry^Shopping^Jewellery
+Jio Saavn,Industry^Entertainment^Music Streaming Services^Jio Saavn
+Kabbdi,Industry^Sports & Games^Outdoor Games^Kabbdi
+Kanpur,Industry^Real Estate^Location^Kanpur
+Kindle E-Reader & eBooks,Industry^Shopping^Books & Audible^Kindle E-Reader & eBooks
+Kitchen Appliances,Industry^Shopping^Electronics^Kitchen Appliances
+Kolkata,Industry^Real Estate^Location^Kolkata
+Large Vehicles,Industry^Automobiles^Four Wheeler^Large Vehicles
+Less than 10k,Industry^Gadgets & Technology^Smartphones^Less than 10k
+Less than 20k,Industry^Gadgets & Technology^Smartphones^Less than 20k
+Less than 30k,Industry^Gadgets & Technology^Smartphones^Less than 30k
+Lifestyle,Industry^FMCG^Lifestyle
+Loans,Industry^Banking & Finance^Loans
+Location,Industry^Real Estate^Location
+Lucknow,Industry^Real Estate^Location^Lucknow
+Luggage,Industry^Shopping^Luggage
+MX Player,Industry^Entertainment^OTT Apps^MX Player
+Malls,Industry^Real Estate^Property Type^Malls
+Matrimony,Industry^Family and Relationships^Matrimony
+Medicines & Office Supplies,Industry^FMCG^Medicines & Office Supplies
+Mobile & Computers,Industry^Shopping^Mobile & Computers
+More than 30K,Industry^Gadgets & Technology^Smartphones^More than 30K
+Mumbai,Industry^Real Estate^Location^Mumbai
+Music Streaming Services,Industry^Entertainment^Music Streaming Services
+NRI Acoount,Industry^Banking & Finance^Banking^NRI Acoount
+National Election,Industry^News & Politics^National Election
+Navi Mumbai,Industry^Real Estate^Location^Navi Mumbai
+Netflix,Industry^Entertainment^OTT Apps^Netflix
+News,Industry^News & Politics^News
+Noida,Industry^Real Estate^Location^Noida
+OTT Apps,Industry^Entertainment^OTT Apps
+Offer & Deals,Industry^Food & Dining^Food delivery^Offer & Deals
+Offline Entertainment,Industry^Entertainment^Offline Entertainment
+Offline TV Show & Serial,Industry^Entertainment^Offline Entertainment^Offline TV Show & Serial
+Online Admission,Industry^Education^Online Admission
+Online Banking,Industry^Banking & Finance^Banking^Online Banking
+Online Services,Industry^Online Services
+Oral Care,Industry^FMCG^Oral Care
+Others,Industry^Others
+Outdoor Activities,Industry^Entertainment^Offline Entertainment^Outdoor Activities
+Outdoor Games,Industry^Sports & Games^Outdoor Games
+Penthouse,Industry^Real Estate^Property Type^Penthouse
+Premium Bikes,Industry^Automobiles^Two Wheeler^Premium Bikes
+Premium Cars,Industry^Automobiles^Four Wheeler^Premium Cars
+Property Type,Industry^Real Estate^Property Type
+Quiz,Industry^Education^Quiz
+Religion,Industry^Religion & Spirituality^Religion
+Restaurant table booking,Industry^Food & Dining^Restaurant table booking
+Shops,Industry^Real Estate^Property Type^Shops
+Showrooms,Industry^Real Estate^Property Type^Showrooms
+Simulation,Industry^Sports & Games^Online Games^Simulation
+Spirituality,Industry^Religion & Spirituality^Spirituality
+Sport,Industry^Sports & Games^Online Games^Sport
+Sports & Fitness,Industry^Shopping^Sports & Fitness
+Spotify,Industry^Entertainment^Music Streaming Services^Spotify
+State Election,Industry^News & Politics^State Election
+Strategy,Industry^Sports & Games^Online Games^Strategy
+TMC Followers,Industry^News & Politics^Politics^TMC Followers
+Tennis,Industry^Sports & Games^Outdoor Games^Tennis
+Term Insurance,Industry^Banking & Finance^Insurance^Term Insurance
+Thane,Industry^Real Estate^Location^Thane
+Tourism,Industry^Travel^Tourism
+Training,Industry^Education^Training
+Two Wheeler Loan,Industry^Banking & Finance^Loans^Two Wheeler Loan
+Utility,Industry^Utility
+Vacation,Industry^Travel^Vacation
+Villas,Industry^Real Estate^Property Type^Villas
+Voot,Industry^Entertainment^OTT Apps^Voot
+Watches,Industry^Shopping^Watches
+Weight Gain,Industry^Health & Pharmaceutical^Weight Gain
+Wrestling,Industry^Sports & Games^Outdoor Games^Wrestling
+Youtube Music,Industry^Entertainment^Music Streaming Services^Youtube Music
+Zee5,Industry^Entertainment^OTT Apps^Zee5
+Entertainment Appliances,Industry^Shopping^Electronics^Entertainment Appliances
+Offer & Deals,Industry^Food & Dining^Restaurant table booking^Offer & Deals
+Others,Industry^Sports & Games^Online Games^Others
+Domestic,Industry^Travel^Air Travel^Domestic
+Others,Industry^Sports & Games^Outdoor Games^Others
+Solar Energy,Industry^Others^Solar Energy
+Computer Accessories,Industry^Gadgets & Technology^Computer Accessories
+Mobile Accessories,Industry^Gadgets & Technology^Mobile Accessories
