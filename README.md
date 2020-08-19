@@ -4,6 +4,9 @@ _Numerical combination of LDA and NMF cascaded with W2V to categorize 1M+ multi-
 
 - _This solution ranked 4th out of 10,000+ in an All-India AI Hackathon, Automated Multi Label Classification, in Code Gladiators 2020 organized by Techgig._
 
+To know more in detail of this project, head over to my blog:<br>
+https://medium.com/@AnandAI/topic-modelling-into-a-category-tree-acafad0f0050
+
 # How to run?
 
 1) Download the **Google pre-trained model** using wget:
