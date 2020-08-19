@@ -2,7 +2,7 @@
 
 _Numerical combination of LDA and NMF cascaded with W2V to categorize 1M+ multi-lingual records into a 275-node, 5-level deep category tree._
 
--  _This solution ranked 4th in All-India AI Hackathon, Automated Multi Label Classification, in Code Gladiators 2020 organized by Techgig._
+- _This solution ranked 4th out of 10,000+ in an All-India AI Hackathon, Automated Multi Label Classification, in Code Gladiators 2020 organized by Techgig._
 
 # How to run?
 
@@ -85,7 +85,7 @@ We can also use NMF to decompose DTM into two matrices, like below, which is con
 
 Take the argmax() of each row to find the most probable prediction out of both LDA and NMF
 
-- _Note: Remember to do normalization before matrix concatenation._
+_Note: Remember to do normalization before matrix concatenation._
 
 The only downside is that **this results in 1st level categorization and not tree hierarchy.** So is the reason, I have decided to place it as 2nd Fallback. <br>
 
