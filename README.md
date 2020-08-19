@@ -19,7 +19,7 @@ https://drive.google.com/drive/folders/1K07Ax1Q6Aj4q_Hkh1vUnM61oZ_kNPd0r?usp=sha
 
 **The Hackathon challenge was to multi-categorize 1M+ multi-lingual articles with meta-information, at high precision. The meta-information denotes the category-tree information hidden in the URL text sequence and also the title of each article. You can get a glance at the input data-set below.**
 
-![](images/input_data.jpg)
+![](images/input_data.png)
 
 The above articles are to be categorized into a category hierarchy based on the article topic. For instance, "Modi visits to China" are to be categorized in "Politics^International" while "Corona tally reached record high" as "Health^Pandemic".
 
@@ -41,13 +41,13 @@ Latent Dirichlet Allocation (LDA) is a classic solution to Topic-Modelling. But 
 If all the above approaches fail, then you can either **mark the article as "unclassified"** or take output of "Main Approach" as the final fallback.
 You can also **checkout "Improvements" head** at the bottom of this blog, for further fallback strategies to replace Fallback 4.
 
-![](images/soln_architecture.jpg)
+![](images/soln_architecture.png)
 
 # Constructing Category Tree
 The category tree to classify the documents are given as csv file below.
 
-![](images/tree.jpg)
-![](images/tree_viz.jpg)
+![](images/tree.png)
+![](images/tree_viz.png)
 
 
 ## Main Logic: Category Tree Classn using Description
@@ -78,16 +78,17 @@ No single information may be enough to properly classify an article. First, **we
 
 Manually label the topics based on the top 20 words in each cluster.
 
-Output of LDA is a matrix of size # of articles * # of topics. Each cell contains the probability of an article belonging to a topic. 
+- Output of LDA is a matrix of size # of articles * # of topics. Each cell contains the probability of an article belonging to a topic. 
 We can also use NMF to decompose DTM into two matrices, like below, which is conceptually similar to LDA model, except that here we use linear algebra instead of probabilistic model.
 
-Output of NMF is also a matrix of size # of articles * # of topics and interpretation remains the same. Hence, we can combine the output matrices of LDA and NMF on y-axis to get 1 million * 40 columns. (Input = 1M rows. Topics = 20 each for LDA and NMF)
+- Output of NMF is also a matrix of size # of articles * # of topics and interpretation remains the same. Hence, we can combine the output matrices of LDA and NMF on y-axis to get 1 million * 40 columns. (Input = 1M rows. Topics = 20 each for LDA and NMF)
 
 Take the argmax() of each row to find the most probable prediction out of both LDA and NMF
 
 - _Note: Remember to do normalization before matrix concatenation._
 
-The only downside is that **this results in 1st level categorization and not tree hierarchy.** So is the reason, I have decided to place it as 2nd Fallback. 
+The only downside is that **this results in 1st level categorization and not tree hierarchy.** So is the reason, I have decided to place it as 2nd Fallback. <br>
+
 **Ideally, Hierarchical-LDA should be done and be placed as 1st Fallback after Article Classifier in the solution pipeline.** Article Classifier should still be the main logic, as Hierarchical-LDA produces word clusters of random categories which may not be same as the category tree we want. 
 
 ## Merging Description, URL & LDA-NMF Classifiers
