@@ -71,9 +71,13 @@ Multi-words categories having words of different meanings are combined into simi
 No single information may be enough to properly classify an article. First, **we use the tree information embedded in the URL links to find the category.**
 
 ## Fallback 2: LDA-NMF Combination Model
-**LDA is a probabilistic generative process, while NMF is a linear-algebraic method** to compute the value of keywords in the documents so that each document can be assigned to a topic, with maximum value. However, neither LDA nor NMF could return good results individually, being unsupervised.
+**LDA is a probabilistic generative process, while NMF is a linear-algebraic method** to classify documents into different topics.<br>
 
-**Hence, a numerical combination of LDA and NMF output matrices post-normalization was implemented to figure out the maximum probable topic.**
+Any document is considered to have an underlying mixture of topics associated with it. Similarly, a topic is considered to be a mixture of terms that is likely to generate. Thus, there are two sets of parameters of probability distributions that we need to compute. This concept of matrix factorization is called Latent Dirichlet Allocation.
+
+![](images/lda.png)
+
+However, neither LDA nor NMF could return good results individually, being unsupervised. **Hence, a numerical combination of LDA and NMF output matrices post-normalization was implemented to figure out the maximum probable topic.**
 
 **After doing pre-processing, apply CountVectorizer and TF-IDF-Vectorizer on 'article description' to compute the document-term matrix (DTM) to be fed in to LDA and NMF respectively.**
 
