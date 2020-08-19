@@ -47,7 +47,6 @@ You can also **checkout "Improvements" head** at the bottom of this blog, for fu
 The category tree to classify the documents are given as csv file below.
 
 ![](images/tree.png)
-![](images/tree_viz.png)
 
 
 ## Main Logic: Category Tree Classn using Description
@@ -64,6 +63,8 @@ The **confidence score is computed using a mathematical formula based on the num
 
 ### Tweaking Category Tree
 Multi-words categories having words of different meanings are combined into similar meaning words so that word vector distance metrics won't go awry. For instance, "Education" was found similar to "Finance" among word vectors, hence renamed to a similar meaning word, "Schooling".
+
+![](images/tree_viz.png)
 
 ## Fallback 1: URL based Category Tree Classifier
 
