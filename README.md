@@ -5,14 +5,14 @@ _Numerical combination of LDA and NMF cascaded with W2V to categorize 1M+ multi-
 - _This solution ranked 4th out of 10,000+ in an All-India AI Hackathon, Automated Multi Label Classification, in Code Gladiators 2020 organized by Techgig._
 
 To know more in detail of this project, head over to my blog:<br>
-https://medium.com/@AnandAI/topic-modelling-into-a-category-tree-acafad0f0050
+https://towardsdatascience.com/topic-modelling-into-a-category-tree-acafad0f0050
 
 # How to run?
 
-1) Download the **Google pre-trained model** using wget:
+1) Download the **Google pre-trained model** using wget:<br>
 wget -c "https://s3.amazonaws.com/dl4j-distribution/GoogleNews-vectors-negative300.bin.gz"
 
-2) **Download the input files** from here:
+2) **Download the input files** from here:<br>
 https://drive.google.com/drive/folders/1K07Ax1Q6Aj4q_Hkh1vUnM61oZ_kNPd0r?usp=sharing
 
 3) **Multi-Lingual Category Tree Classification.ipynb is the main file** to be executed. LDA-NMF Combination Classifier.ipynb is the fallback LDA-NMF implementation. It is already executed for the given input dataset. If you want to categorize another dataset execute this file also.
